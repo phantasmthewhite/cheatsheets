@@ -1,6 +1,7 @@
-### dig
+### DNS
 ```
 dig -t AXFR <URL> @<DNS SERVER IP>
+nmap -R -sL --dns-servers <IP> -Pn <IP RANGE> | grep "("
 ```
 
 ### memcached
