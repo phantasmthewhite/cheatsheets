@@ -1,7 +1,8 @@
 ### DNS
 ```
-dig -t AXFR <URL> @<DNS SERVER IP>
-nmap -R -sL --dns-servers <IP> -Pn <IP RANGE> | grep "("
+ZONE TRANSFERT =        dig -t AXFR <URL> @<DNS SERVER IP>
+DNSSEC =                dig -t RRSIG <URL> @<DNS SERVER IP>
+LIST RECORDS W/ NMAP =  nmap -R -sL --dns-servers <IP> -Pn <IP RANGE> | grep "("
 ```
 
 ### memcached
