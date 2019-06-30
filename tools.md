@@ -1,3 +1,8 @@
+### dig
+```
+dig -t AXFR <URL> @<DNS SERVER IP>
+```
+
 ### memcached
 ```
 nmap -p 11211 --script memcached-info <IP>
