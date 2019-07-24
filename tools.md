@@ -21,3 +21,9 @@ memccat --servers=<IP> --username=<USERNAME> --password=<PASSWORD> <KEY>
 ```
 Updated script list: https://nmap.org/nsedoc/
 ```
+
+### tshark
+```
+tshark -r HTTP_traffic.pcap -c 100
+tshark -r HTTP_traffic.pcap -z io,phs -q
+```
