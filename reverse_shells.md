@@ -50,7 +50,8 @@ One of the simplest forms of reverse shell is an xterm session.  The following c
 
 To catch the incoming xterm, start an X-Server (:1 – which listens on TCP port 6001).  One way to do this is with Xnest (to be run on your system):
 
-Xnest :1
+```Xnest :1```
+
 You’ll need to authorise the target to connect to you (command also run on your host):
 
-xhost +targetip
+```xhost +targetip```
