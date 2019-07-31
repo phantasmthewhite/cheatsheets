@@ -13,3 +13,6 @@ Gives us an SSID and a MAC address, which we can use in aircrack-ng.
 ```
 airodump-ng -r WEP-Cracking.cap
 ```
+```
+aircrack-ng -w 1000000-password-seclists.txt -b 00:21:91:d2:8e:25  WPA-PSK.pcap
+```
