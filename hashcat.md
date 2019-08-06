@@ -1,4 +1,4 @@
-### MD5 (bruteforce)
+### Bruteforce
 * -a 3 = brute-force
 * -m 0 = hash MD5
 * -1   = le char set qu'on veut utiliser
