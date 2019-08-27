@@ -25,4 +25,7 @@ tshark -r HTTP_traffic.pcap -R 'frame contains "/1/batch/1/OE"' -2 -x | grep sid
 
 # Compter le nombre de trames de protocole RTP
 tshark -r VoIP_traffic.pcap -z io,phs,rtp -q
+
+# Compter le nombre de trames RTP concernant un SSRC donné
+tshark -r VoIP_traffic.pcap -R '(ip.src==192.168.10.15 && ip.dst==208.51.63.146) && (udp.port==48268 && udp.port==19138)' -2
 ```
