@@ -2,6 +2,9 @@
 # Afficher les 100 premiers paquets d'une capture
 tshark -r HTTP_traffic.pcap -c 100
 
+# Afficher 10 paquets à partir du 100ème
+tshark -r <file> -x -c 10 -R frame.number>=100
+
 # Afficher les paquets avec hiérarchie
 tshark -r HTTP_traffic.pcap -z io,phs -q
 
