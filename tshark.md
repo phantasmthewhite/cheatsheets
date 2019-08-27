@@ -22,4 +22,7 @@ tshark -r HTTP_traffic.pcap -R "http.host==www.alexa.com" -2
 
 # Champ "SID" dans une trame vers une URL spécifique (-x data en hexa)
 tshark -r HTTP_traffic.pcap -R 'frame contains "/1/batch/1/OE"' -2 -x | grep sid
+
+# Compter le nombre de trames de protocole RTP
+tshark -r VoIP_traffic.pcap -z io,phs,rtp -q
 ```
