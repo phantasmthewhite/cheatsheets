@@ -13,4 +13,7 @@ tshark -r HTTP_traffic.pcap -z "io,stat,0,COUNT(http.request.method)http.request
 
 # HTTP "200 OK"
 tshark -r HTTP_traffic.pcap -R 'frame contains "HTTP/1.1 200 OK"' -2
+
+# URL
+tshark -r HTTP_traffic.pcap -R "http.host==www.alexa.com" -2
 ```
