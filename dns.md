@@ -16,7 +16,7 @@
 ### Requête inverse (reverse lookup)
 `dig -x 10.13.37.10 @10.13.37.10`
 
-
+### Autres
 `dig @10.13.37.10 hostname.bind txt chaos`
 
 `dig @10.13.37.10 version.bind txt chaos`
