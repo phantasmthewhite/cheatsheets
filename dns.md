@@ -1,4 +1,4 @@
-# Scan de serveurs DNS
+### Scan de serveurs DNS
 `nmap -R -sL --dns-servers <IP> -Pn <IP RANGE> | grep "("`
   
 ```
