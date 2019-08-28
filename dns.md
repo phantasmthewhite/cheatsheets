@@ -1,7 +1,7 @@
-```
 # Scan de serveurs DNS
-nmap -R -sL --dns-servers <IP> -Pn <IP RANGE> | grep "("
-
+`nmap -R -sL --dns-servers <IP> -Pn <IP RANGE> | grep "("`
+  
+```
 # Transfert de zone
 dig -t AXFR <URL> @<DNS SERVER IP>
 
