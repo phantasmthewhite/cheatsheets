@@ -21,3 +21,7 @@ proxychains nmap -sV -sT -p- 127.0.0.1
 ### Bruteforcer l'authent du proxy
 
 `nmap --script http-proxy-brute -vv -p 3128 192.113.9.3`
+
+### Proxy authentifié
+
+`curl -x admin:laurie@192.113.9.3:3128 127.0.0.1:1996`
