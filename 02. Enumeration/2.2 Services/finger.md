@@ -1,5 +1,7 @@
 ```
-In computer networking, the Name/Finger protocol and the Finger user information protocol are simple network protocols for the exchange of human-oriented status and user information. 
+In computer networking, the Name/Finger protocol and the Finger 
+user information protocol are simple network protocols for the 
+exchange of human-oriented status and user information. 
 ```
 
 ### finger Metasploit module
