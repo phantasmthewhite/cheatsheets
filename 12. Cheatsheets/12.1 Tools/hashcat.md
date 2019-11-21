@@ -1,4 +1,9 @@
 # Bruteforce (-a 3)
+
+## Utiliser le GPU dans VirtualBox
+apt-get install libhwloc-dev ocl-icd-dev ocl-icd-opencl-dev
+apt-get install pocl-opencl-icd
+
 ## MD5
 * -1   = le char set qu'on veut utiliser
 * ?1   = le nombre de char du PW + le charset qu'on veut utiliser tel que défini par le -1 d'avant
