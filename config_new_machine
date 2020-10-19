@@ -1,0 +1,2 @@
+PS1 Blue Blanc Rouge :
+PS1="\e[1m\e[34m[\u]\e[m\e[1m\e[97m\t\e[m\e[1m\e[31m[\w]>\[$(tput sgr0)\]"
