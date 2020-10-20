@@ -1,5 +1,9 @@
 Guest additions:
-sudo apt install -y virtualbox-guest-dkms
+sudo apt-get update && apt-get upgrade -y
+sudo apt-get install virtualbox-guest-utils
+sudo apt-get install virtualbox-guest-x11
+sudo reboot now
+sudo /usr/sbin/VBoxService -V
 
 PS1 Blue Blanc Rouge :
 PS1="\[\e[1m\]\[\e[34m\][\D{%d/%m/%y}_\t]\[\e[m\]\[\e[1m\]\[\e[97m\]\u\[\e[m\]\[\e[1m\]\[\e[31m\][\w]> \[\e[m\]"
