@@ -12,3 +12,8 @@ sudo apt-get install terminator
 
 PS1 Blue Blanc Rouge :
 PS1="\[\e[1m\]\[\e[34m\][\D{%d/%m/%y}_\t]\[\e[m\]\[\e[1m\]\[\e[97m\]\u\[\e[m\]\[\e[1m\]\[\e[31m\][\w]> \[\e[m\]"
+
+HTB:
+> Copier les fichiers de conf OPENVPN dans /etc/openvpn/
+alias htb='sudo openvpn /etc/openvpn/htb.conf'
+alias dante='sudo openvpn /etc/openvpn/dante.conf'
