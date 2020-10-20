@@ -1,2 +1,5 @@
+Guest additions:
+sudo apt install -y virtualbox-guest-dkms
+
 PS1 Blue Blanc Rouge :
 PS1="\[\e[1m\]\[\e[34m\][\D{%d/%m/%y}_\t]\[\e[m\]\[\e[1m\]\[\e[97m\]\u\[\e[m\]\[\e[1m\]\[\e[31m\][\w]> \[\e[m\]"
