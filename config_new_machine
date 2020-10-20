@@ -7,6 +7,8 @@ sudo /usr/sbin/VBoxService -V
 
 ToDo:
 sudo apt-get install terminator
+> infinite scroll
+> monospace regular 10
 
 PS1 Blue Blanc Rouge :
 PS1="\[\e[1m\]\[\e[34m\][\D{%d/%m/%y}_\t]\[\e[m\]\[\e[1m\]\[\e[97m\]\u\[\e[m\]\[\e[1m\]\[\e[31m\][\w]> \[\e[m\]"
